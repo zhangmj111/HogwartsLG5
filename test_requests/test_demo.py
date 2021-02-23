@@ -5,7 +5,7 @@ import requests
 
 def test_demo():
     #获取token
-    url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=jjx12e171a30e32dg2&corpsecret=_4fQ_bIh6Hli7v8R5-MzjtDFrLPcJQ8DDJeFxk5SDad"
+    url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=jjx12e171a31e32dg2&corpsecret=_4fQ_bIh6Hli7v8R5-MzjtDFrLPcJQ8DDJeFxk5SDad"
     r = requests.get(url)
     token = r.json()["access_token"]
     #读取成员
